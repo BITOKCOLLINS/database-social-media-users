@@ -20,18 +20,23 @@ The Mission:
              FROM `users-on-social-media`
              GROUP BY profession;
    ![image](https://github.com/BITOKCOLLINS/database-social-media-users/assets/160725857/85391fa8-45c3-4ef0-bd0a-eb56e1452e5a)
+
   SUM() => sums up the income of all users.
             SELECT SUM(income) AS total_income 
             FROM `users-on-social-media`;
+   
    ![image](https://github.com/BITOKCOLLINS/database-social-media-users/assets/160725857/a26244bb-134f-492c-b3fd-0a595c80e7e2)
-3. Ask Away
+
+4. Ask Away
    Which social media platform is most popular among high-income users?
             SELECT platform, COUNT(*) AS high_income_users
             FROM `users-on-social-media`
             WHERE income > 15000
             GROUP BY platform
             ORDER BY high_income_users DESC;
+   
    ![image](https://github.com/BITOKCOLLINS/database-social-media-users/assets/160725857/e07c4bbd-30f8-4c55-ad17-a8056eb3ddd4)
+   
    In which countries do we find the highest proportion of users interested in Travel content?
             SELECT location, 
                    COUNT(*) AS total_users,
@@ -45,6 +50,9 @@ The Mission:
 
 Week 16
 4. Showtime!
+https://github.com/BITOKCOLLINS/database-social-media-users/blob/main/Bar_graph_average_income.jpg
+https://github.com/BITOKCOLLINS/database-social-media-users/blob/main/Pie_chart_Platform.jpg
+https://github.com/BITOKCOLLINS/database-social-media-users/blob/main/line_graph_average_income_per_age.jpg
 
 
    
