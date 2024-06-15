@@ -54,5 +54,10 @@ https://github.com/BITOKCOLLINS/database-social-media-users/blob/main/Bar_graph_
 https://github.com/BITOKCOLLINS/database-social-media-users/blob/main/Pie_chart_Platform.jpg
 https://github.com/BITOKCOLLINS/database-social-media-users/blob/main/line_graph_average_income_per_age.jpg
 
+5. Presentation PITCH DECK
+https://gamma.app/docs/Social-Media-User-Dataset-Analysis-ad1wro42qr19az3
+
+
+
 
    
